@@ -192,8 +192,8 @@ currencyCodes.forEach((currency) => {
 });
 
 // Choosing the default currency code values for each
-fromCurrencyList.value = "NGN";
-toCurrencyList.value = "USD";
+fromCurrencyList.value = "USD";
+toCurrencyList.value = "NGN";
 
 function currencyConvert(){
     //creating the currency refferences
