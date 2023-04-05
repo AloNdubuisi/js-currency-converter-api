@@ -12,7 +12,7 @@ body{
     background-color: rgb(228, 235, 228); 
 }
 .wrapper{
-    width: 100%;
+    width:95%;
     max-width: 27rem;
     background-color: #ffff;
     position: absolute;
@@ -66,13 +66,14 @@ select{
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
-    color: #ffff;
-    /* background-image: url("arrow-down.svg"); */
+    color: #ffffff;
+    background-image: url("../images/icons8-down-24.png");
     background-position: right 15px top 50px, center;
     background-repeat: no-repeat;
     background-size: 20px 20px;
     background-color: rgb(14, 63, 14);
 }
+
 button{
     font-size: 2em;
     background-color: rgb(14, 63, 14);
@@ -93,9 +94,14 @@ button{
     padding: 0.8em 0;
     border-radius: 0.3em;
 }
+.footer p{
+    text-align: center;
+    margin-top: 0.2em;
+    font-weight: bolder;
+}
 /* MEDIA QUERIES */
 @media screen and (max-width: 32px){
-    .app-icon{
-        width: 5em;
+    .wrapper{
+        width: 80%;
     }
 }
