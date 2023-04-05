@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serf;
+    border: none;
+    outline: none;
+}
+body{
+    background-color: rgb(228, 235, 228); 
+}
+.wrapper{
+    width: 100%;
+    max-width: 27rem;
+    background-color: #ffff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    padding: 2em;
+    border: 1px solid rgb(14, 63, 14);
+    border-radius: 0.8em;
+    box-shadow: 2px -2px 5px rgb(14, 63, 14),
+                -3px 3px 5px rgb(14, 63, 14);
+}
+.app-details{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.app-icon{
+    width: 8.57em;
+}
+.app-title{
+    font-size: 1.3em;
+    margin: 1em 0;
+    letter-spacing: 0.05em;
+}
+label{
+    display: block;
+    font-weight: 600;
+}
+input#amount{
+    font-weight: 500;
+    font-size: 1.2em;
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid #02002c;
+    color: #02002c;
+    margin-bottom: 2.3em;
+    padding: 0.6em;
+}
+.drop-downs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.2em;
+}
+select{
+    width: 100%;
+    padding: 0.7em;
+    font-size: 1.2em;
+    border-radius: 0.3em;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    color: #ffff;
+    /* background-image: url("arrow-down.svg"); */
+    background-position: right 15px top 50px, center;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-color: rgb(14, 63, 14);
+}
+button{
+    font-size: 2em;
+    background-color: rgb(14, 63, 14);
+    width: 100%;
+    padding: 0.2em 0;
+    color: #ffff;
+    text-transform: uppercase;
+    margin-top: 0.5em;
+    border-radius: 0.3em;
+    letter-spacing: 0.06em;
+}
+#result{
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 1em;
+    color: #f8f8fb;
+    background-color: rgb(14, 63, 14);
+    padding: 0.8em 0;
+    border-radius: 0.3em;
+}
+/* MEDIA QUERIES */
+@media screen and (max-width: 32px){
+    .app-icon{
+        width: 5em;
+    }
+}
